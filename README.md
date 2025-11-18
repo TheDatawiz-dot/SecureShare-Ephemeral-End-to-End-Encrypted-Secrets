@@ -1,19 +1,3 @@
-Project Structure
-
-secure-share/
-├── backend/
-│   ├── app.py
-│   └── requirements.txt
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── App.css
-│   │   ├── App.js
-│   │   ├── crypto.js
-│   │   └── index.js
-│   └── package.json
-└── README.md
-
 # SecureShare: Ephemeral End-to-End Encrypted Secrets
 
 SecureShare is a full-stack web application for sharing secrets that self-destruct after a single view. This project demonstrates a strong focus on security, utilizing **client-side end-to-end encryption** to ensure the server is a zero-knowledge host.
